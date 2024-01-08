@@ -1,4 +1,4 @@
-import Mathlib
+import Mathlib.Data.Nat.Basic
 
-lemma division (m n : ℕ) (h: m > 0) : ∃!k : ℕ, ∃!r : ℕ, n = m*k + r ∧ r < m :=
+lemma Division (m n : ℕ) (h: m > 0) : ∃!k : ℕ, ∃!r : ℕ, n = m*k + r ∧ r < m :=
 by admit

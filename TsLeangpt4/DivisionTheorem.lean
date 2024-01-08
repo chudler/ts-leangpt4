@@ -1,4 +1,4 @@
-import Mathlib
+import Mathlib.Data.Nat.Basic
 
-theorem division_theorem (a b : ℕ) (h : b > 0) : ∃ q r : ℕ, a = b * q + r ∧ r < b :=
+theorem DivisionTheorem (a b : ℕ) (h : b > 0) : ∃ q r : ℕ, a = b * q + r ∧ r < b :=
 by admit

@@ -1,4 +1,4 @@
-import Mathlib
+import Mathlib.Data.Nat.Basic
 
-theorem hello_world (a b c : ℕ) : a + b + c = a + c + b :=
+theorem HelloWorld (a b c : ℕ) : a + b + c = a + c + b :=
 by admit

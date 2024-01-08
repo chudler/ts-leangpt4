@@ -1,4 +1,4 @@
-import Mathlib
+import Mathlib.Data.Nat.Basic
 
-example : ∃ n : ℕ, n > 0 :=
+Positive : ∃ n : ℕ, n > 0 :=
 by admit
