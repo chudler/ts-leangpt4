@@ -1,2 +1,1 @@
--- No blank files allowed so here is a comment
-
+import Mathlib.Data.Nat.Basic
